@@ -15,3 +15,8 @@ def step_impl_goto_page(context, page):
 @then(u'I see this component "{component}"')
 def step_impl_verify_component(context, component):
     webapp.verify_component_exists(component)
+
+
+@then(u'I see this component "{component}" from prakash')
+def step_impl_verify_component_prakash(context, component):
+    webapp.verify_component_exists(component)
